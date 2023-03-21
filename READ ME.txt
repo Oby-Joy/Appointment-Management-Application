@@ -1,0 +1,6 @@
+APPOINTMENT MANAGEMENT APPLICATION
+Steps to run this program:
+1. Run XAMPP and make sure that apache and mysql have started.
+2. Open your command prompt, and change directory with the "cd" command to the appropriate folder
+3. Type "php artisan serve" to start the development server.
+4. Open your browser and type the local address.
