@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 class AdminController extends Controller
 {
     public function index(){
-        $appointments = Appointment::simplePaginate(5);
+        $appointments = Appointment::simplePaginate(10);
 
         return view('admin', compact('appointments'));
     }
